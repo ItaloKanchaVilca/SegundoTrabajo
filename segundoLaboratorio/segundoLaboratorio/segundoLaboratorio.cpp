@@ -31,6 +31,7 @@ int main()
 */
 
 //2.28
+/*
 int main()
 {
 	int num, unidades, decenas, centenas, millar;
@@ -55,5 +56,29 @@ int main()
 
 	return 0;
 }
+*/
+//2.29
+int main()
+{
+	
+	cout << "LONGITUDES DE CARA DESDE 0 A 4:" << endl;
+	int n;
+	cout << "LONGITUD DE LA CARA" << "\t" << "AREA DEL CUBO" << "\t" << "VOLUMEN DEL CUBO" << endl;
 
-//
+	n = 0;
+	cout << n << "\t" << 6 * (n * n) << "\t" << n * n * n << endl;
+
+	n = 1;
+	cout << n << "\t" << 6 * (n * n) << "\t" << n * n * n << endl;
+
+	n = 2;
+	cout << n << "\t" << 6 * (n * n) << "\t" << n * n * n << endl;
+
+	n = 3;
+	cout << n << "\t" << 6 * (n * n) << "\t" << n * n * n << endl;
+
+	n = 4;
+	cout << n << "\t" << 6 * (n * n) << "\t" << n * n * n << endl;
+
+	return 0;
+}
